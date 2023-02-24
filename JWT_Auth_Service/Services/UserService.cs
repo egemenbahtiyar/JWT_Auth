@@ -46,7 +46,7 @@ public class UserService : IUserService
         {
             await _roleManager.CreateAsync(new IdentityRole("Admin"));
         }
-        var user = new User { UserName = createAdminDto.UserName, City = "niğde", Email = "Egementyu@gmail.com" };
+        var user = new User { UserName = createAdminDto.UserName, City = createAdminDto.City, Email = createAdminDto.Email };
         var result = await _userManager.CreateAsync(user, createAdminDto.Password);
         if (result.Succeeded)
         {
