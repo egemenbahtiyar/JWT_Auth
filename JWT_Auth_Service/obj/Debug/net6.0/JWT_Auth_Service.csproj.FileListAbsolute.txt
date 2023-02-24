@@ -1,0 +1,15 @@
+C:\Users\ebaht\RiderProjects\JWT_Auth\JWT_Auth_Service\bin\Debug\net6.0\JWT_Auth_Service.deps.json
+C:\Users\ebaht\RiderProjects\JWT_Auth\JWT_Auth_Service\bin\Debug\net6.0\JWT_Auth_Service.dll
+C:\Users\ebaht\RiderProjects\JWT_Auth\JWT_Auth_Service\bin\Debug\net6.0\JWT_Auth_Service.pdb
+C:\Users\ebaht\RiderProjects\JWT_Auth\JWT_Auth_Service\bin\Debug\net6.0\JWT_Auth_Data.dll
+C:\Users\ebaht\RiderProjects\JWT_Auth\JWT_Auth_Service\bin\Debug\net6.0\JWT_Auth_Data.pdb
+C:\Users\ebaht\RiderProjects\JWT_Auth\JWT_Auth_Service\obj\Debug\net6.0\JWT_Auth_Service.csproj.AssemblyReference.cache
+C:\Users\ebaht\RiderProjects\JWT_Auth\JWT_Auth_Service\obj\Debug\net6.0\JWT_Auth_Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ebaht\RiderProjects\JWT_Auth\JWT_Auth_Service\obj\Debug\net6.0\JWT_Auth_Service.AssemblyInfoInputs.cache
+C:\Users\ebaht\RiderProjects\JWT_Auth\JWT_Auth_Service\obj\Debug\net6.0\JWT_Auth_Service.AssemblyInfo.cs
+C:\Users\ebaht\RiderProjects\JWT_Auth\JWT_Auth_Service\obj\Debug\net6.0\JWT_Auth_Service.csproj.CoreCompileInputs.cache
+C:\Users\ebaht\RiderProjects\JWT_Auth\JWT_Auth_Service\obj\Debug\net6.0\JWT_Auth_Service.csproj.CopyComplete
+C:\Users\ebaht\RiderProjects\JWT_Auth\JWT_Auth_Service\obj\Debug\net6.0\JWT_Auth_Service.dll
+C:\Users\ebaht\RiderProjects\JWT_Auth\JWT_Auth_Service\obj\Debug\net6.0\refint\JWT_Auth_Service.dll
+C:\Users\ebaht\RiderProjects\JWT_Auth\JWT_Auth_Service\obj\Debug\net6.0\JWT_Auth_Service.pdb
+C:\Users\ebaht\RiderProjects\JWT_Auth\JWT_Auth_Service\obj\Debug\net6.0\ref\JWT_Auth_Service.dll
