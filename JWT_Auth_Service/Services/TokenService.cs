@@ -37,12 +37,15 @@ namespace JWT_Auth_Service.Services;
 
         private IEnumerable<Claim> GetClaims(User userApp, List<String> audiences)
         {
+            var userRole = _userManager.GetRolesAsync(userApp).Result.FirstOrDefault();
+            
             var userList = new List<Claim> {
             new Claim(ClaimTypes.NameIdentifier,userApp.Id),
             new Claim(JwtRegisteredClaimNames.Email, userApp.Email),
             new Claim(ClaimTypes.Name,userApp.UserName),
-            new Claim(JwtRegisteredClaimNames.Jti,Guid.NewGuid().ToString())
+            new Claim(JwtRegisteredClaimNames.Jti,Guid.NewGuid().ToString()),
             };
+            if(userRole != null) userList.Add(new Claim(ClaimTypes.Role, userRole));
 
             userList.AddRange(audiences.Select(x => new Claim(JwtRegisteredClaimNames.Aud, x)));
 

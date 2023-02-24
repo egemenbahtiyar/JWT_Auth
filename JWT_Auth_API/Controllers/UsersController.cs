@@ -15,12 +15,17 @@ public class UsersController: CustomBaseController
     {
         _userService = userService;
     }
-
-    //api/user
-    [HttpPost]
+    
+    [HttpPost("CreateUser")]
     public async Task<IActionResult> CreateUser(CreateUserDto createUserDto)
     {
         return ActionResultInstance(await _userService.CreateUserAsync(createUserDto));
+    }
+    
+    [HttpPost("CreateAdmin")]
+    public async Task<IActionResult> CreateAdmin(CreateAdminDto createAdminDto)
+    {
+        return ActionResultInstance(await _userService.CreateAdminAsync(createAdminDto));
     }
     
     [HttpGet]
